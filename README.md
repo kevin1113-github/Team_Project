@@ -13,6 +13,12 @@ $ git pull origin master
 origin : 원격 저장소
 origin master : 원격 저장소의 마스터 브랜치
 
+# Git Pull
+-------------------
+작업을 시작하기전 항상 git pull 을 통해 동기화를 해주세요.
+
+	$ git pull origin [브랜치 이름]
+
 
 # Git Push 순서
 -------------------
