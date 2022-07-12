@@ -3,7 +3,11 @@ guid: 61182449271b54fcc89e171386be60a7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - plane_obj: {fileID: 7899340850907830480, guid: a5439d6e88af542cfbca65f5b138ee5e, type: 3}
+  - wall_obj: {fileID: 5775412421956480555, guid: d36ed6ae8eeaa4d6198c49013ab3f5e4, type: 3}
+  - door_obj: {fileID: 6461245328657868281, guid: d62b758233dbf4e9990239d3a646eaa4, type: 3}
+  - road_obj: {fileID: 7899340850907830480, guid: b1ac9fbfe8c624a7faebc763449680d1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

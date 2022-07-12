@@ -294,7 +294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 70, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -345,7 +345,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61182449271b54fcc89e171386be60a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 20
-  height: 10
-  room_count: 5
-  room: {fileID: 7899340850907830480, guid: a5439d6e88af542cfbca65f5b138ee5e, type: 3}
+  height: 70
+  width: 100
+  road_size: 1
+  room_size: 15
+  room_size_range: 5
+  room_count: 10
+  plane_obj: {fileID: 7899340850907830480, guid: a5439d6e88af542cfbca65f5b138ee5e, type: 3}
+  wall_obj: {fileID: 5775412421956480555, guid: d36ed6ae8eeaa4d6198c49013ab3f5e4, type: 3}
+  door_obj: {fileID: 6461245328657868281, guid: d62b758233dbf4e9990239d3a646eaa4, type: 3}
+  road_obj: {fileID: 7899340850907830480, guid: b1ac9fbfe8c624a7faebc763449680d1, type: 3}
